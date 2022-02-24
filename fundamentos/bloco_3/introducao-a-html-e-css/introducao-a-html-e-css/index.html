@@ -4,15 +4,45 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+        body{
+            font-size: 16px;
+            text-align: center;
+            background-color: blanchedalmond;
+        }
         h1{
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
+            font-style: oblique;
+            line-height: 20px;
+            text-decoration: underline;
         }
         ul{
             background-color: aqua;
         }
+        p{
+            font-weight: 600;
+            font-size: 3em;
+            font-style: italic;
+        }
         .corListaParagrafo{
-            background-color: bisque;
+            color: white;
+            background-color: rgb(75, 75, 75);
+        }
+        ul{
+            text-align: left;
+        }
+        #corAmarela{
+            color: black;
+            background-color: rgb(238, 238, 93);
+        }
+        #corVermelho{
+            color: black;
+            background-color: red;
+        }
+        #corMarrom{
+            color: black;
+            background-color: rgb(129, 76, 11);
         }
     </style>
   </head>
@@ -20,9 +50,9 @@
     <h1>Exercícios 3.2</h1>
     <p class="corListaParagrafo">Qual é a sua cor favorita?</p>
     <ul class="corListaParagrafo">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="corAmarela">Amarelo</li>
+      <li id="corVermelho">Vermelho</li>
+      <li id="corMarrom">Marrom</li>
     </ul>
   </body>
 </html>
