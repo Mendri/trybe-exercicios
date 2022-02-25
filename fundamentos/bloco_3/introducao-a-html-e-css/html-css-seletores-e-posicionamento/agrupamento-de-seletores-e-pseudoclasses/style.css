@@ -1,0 +1,20 @@
+h1, p, ol, ul{
+    text-align: center;
+}
+
+ol{
+    list-style: none;
+    background-color: #b3a8f3;
+}
+
+ol:hover{
+    background-color: #9a8af1;
+}
+
+li:active{
+    color: aliceblue;
+}
+
+ul{
+    list-style: none;
+}
