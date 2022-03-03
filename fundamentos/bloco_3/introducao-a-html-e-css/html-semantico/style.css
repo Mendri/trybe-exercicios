@@ -1,40 +1,10 @@
-h1 {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-section ul{
-  text-align: center;
-}
-
-.first {
-  background-color: rgb(235, 200, 84);
-  font-size: 20px;
-  height: 50px;
-  width: 200px;
-  display: block;
-  margin: 0 auto;
-}
-
-.second {
-  background-color: rgb(219, 219, 219);
-  font-size: 20px;
-  height: 50px;
-  width: 300px;
-  display: inline-block;
-}
-
-.third {
-  background-color: rgb(170, 142, 106);
-  font-size: 20px;
-  height: 50px;
-  width: 300px;
-  display: inline-block;
-}
-
-.premio1 li, .premio2 li, .premio3 li{
-  display: inline;
-}
-
-h3{
-  text-align: center;
+table, th, td{
+    border: 1px solid gray;
+    padding: 2px;
 }
