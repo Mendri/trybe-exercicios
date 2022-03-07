@@ -1,13 +1,9 @@
-const myName = "Marçal";
-const birthCity = "São Carlos";
-let birthYear = 2003;
+const base = 5;
+const height = 8;
+const area = base * height;
+const perimeter = (base * 2) + (2 * height);
 
-console.log(myName, birthCity, birthYear);
-
-birthYear = 2030;
-
-console.log(birthYear);
-
-birthCity = "Bauru";
-
-console.log(birthCity);
+console.log(base);
+console.log(height);
+console.log(area);
+console.log(perimeter);
