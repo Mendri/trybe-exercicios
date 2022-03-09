@@ -6,3 +6,11 @@ for (let i = 0; i < numbers.length; i += 1) {
 }
 
 console.log(soma)
+
+/* 
+    1. Ter um array com números
+    2. Criar uma variável que receberá a soma dos arrays
+    3. Utilizar o for para percorrer pelos números
+    4. Por meio desta operação += atribuir os valores do array na variável
+    5. Utilizar o console.log para imprimir o valor da soma.
+*/
